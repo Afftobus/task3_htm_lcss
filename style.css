@@ -1,0 +1,187 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    alignment: center;
+    background-color: #dedede;
+
+    font-family: Calibri;
+}
+
+.modal-message-drop
+{
+    box-sizing: border-box;
+    width: 1602px;
+    height: 1244px;
+    background-color: white;
+
+    margin-top: 150px;
+
+    position: relative;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    padding-top: 180px;
+    padding-left: 141px;
+    padding-right: 141px;
+    padding-bottom: 176px;
+
+
+    -webkit-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
+    box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
+}
+
+/******************  input **************************************/
+
+.modal-message-drop input, .modal-message-drop textarea
+{
+
+    padding: 35px 50px;
+    font-size: 43px;
+    border: 2px solid #dedede;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    outline: none;
+
+}
+
+.modal-message-drop input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #555555;
+    opacity: 1; /* Firefox */
+}
+
+.modal-message-drop input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #555555;
+}
+
+.modal-message-drop input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #555555;
+}
+
+.modal-message-drop input:focus
+{
+    border: 2px solid rgb(252,77,94);
+
+}
+
+/******************  textarea **************************************/
+
+
+.modal-message-drop textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #555555;
+    opacity: 1; /* Firefox */
+}
+
+.modal-message-drop textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #555555;
+}
+
+.modal-message-drop textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: #555555;
+}
+
+.modal-message-drop textarea:focus
+{
+    border-color: red;
+}
+
+
+
+.letter-head
+{
+    box-sizing: border-box;
+
+    width: 196px;
+    height: 196px;
+
+    position: absolute;
+    top: -108px;
+    right: calc(50% - 196px/2);
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    border: 2px solid #dedede;
+
+    background-color: white;
+    background-image: url("letter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.modal-header
+{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 75px;
+    font-size: 70px;
+
+    text-align: center;
+    vertical-align: top;
+}
+
+.modal-inputs
+{
+    position: relative;
+    height: 725px;
+}
+
+.modal-inputs input
+{
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.modal-inputs input.left
+{
+    width: 640px;
+    left: 0;
+}
+.modal-inputs input.right
+{
+    width: 640px;
+    right: 0;
+}
+
+.modal-message-text
+{
+    box-sizing: border-box;
+    position: absolute;
+
+    top: 184px;
+    width: 100%;
+    height: 402px;
+}
+
+.modal-inputs input.submit
+{
+    padding: 25px 50px;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgb(252,77,94);
+    color: white;
+    cursor: pointer;
+}
+
+.modal-inputs input.submit:hover
+{
+    background-color: rgb(252, 0, 47);
+}
+
