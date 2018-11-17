@@ -7,17 +7,21 @@
     </head>
     <body>
         <div class="modal-message-drop">
-            <div class="letter-head"></div>
+            <div class="modal-img"></div>
             <div class="modal-header">Drop us a message</div>
             <form>
-                <div class="modal-inputs" >
-                    <input type="text" class="left" placeholder="Name">
-                    <input type="text" class="right" placeholder="Email Address">
-
-                    <textarea class="modal-message-text"></textarea>
-                    <input class="submit" type="submit" value="Send">
+                <div class="modal-form" >
+                    <div  class="modal-name-mail-inputs">
+                        <input type="text"  placeholder="Name" class="modal-input modal-input-name">
+                        <input type="email"  placeholder="Email Address" class="modal-input modal-input-mail">
+                    </div>
+                    <div >
+                        <textarea class="modal-textarea" placeholder="Write Us A Message"></textarea>
+                    </div>
+                    <div  class="modal-submit">
+                        <input class="modal-input modal-submit-button " type="submit" value="Send">
+                    </div>
                 </div>
-
             </form>
         </div>
     </body>
