@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 
 }
@@ -8,7 +8,7 @@ body {
     font-family: Calibri;
 }
 
-.modal-message-drop{
+.modal-message-drop {
 
     position: absolute;
 
@@ -21,7 +21,7 @@ body {
     -moz-border-radius: 2px;
     border-radius: 2px;
 
-    background-color: white;
+    background-color: #fff;
 
     left: calc(50% - 400px);
 
@@ -46,11 +46,10 @@ body {
 
     border: 2px solid #dedede;
 
-    background-color: white;
+    background-color: #fff;
     background-image: url("images/letter.png");
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .modal-header {
@@ -77,21 +76,9 @@ body {
     border-color: #fc4d5e;
 }
 
-/*.modal-input::placeholder, .modal-textarea::placeholder { !* Chrome, Firefox, Opera, Safari 10.1+ *!*/
-    /*color: #555555;*/
-    /*opacity: 1; !* Firefox *!*/
-/*}*/
-
-/*.modal-input:-ms-input-placeholder, .modal-textarea:-ms-input-placeholder { !* Internet Explorer 10-11 *!*/
-    /*color: #555555;*/
-/*}*/
-
-/*.modal-input::-ms-input-placeholder, .modal-textarea::-ms-input-placeholder { !* Microsoft Edge *!*/
-    /*color: #555555;*/
-/*}*/
 /***************INPUTS *********************************************************/
 .modal-input {
-    padding: 0px 20px;
+    padding: 0 20px;
     vertical-align: middle;
 }
 
@@ -101,8 +88,7 @@ body {
     font-size: 20px;
 }
 
-.modal-input-name
-{
+.modal-input-name {
     margin-right: 20px;
 }
 
@@ -119,13 +105,13 @@ body {
 
 .modal-submit-button {
     background-color: #fc4d5e;;
-    color: white;
+    color: #fff;
     cursor: pointer;
 
     height: 50px;
     font-size: 18px;
 
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .modal-submit-button:focus,
