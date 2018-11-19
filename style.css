@@ -1,43 +1,21 @@
-*
-{
+*{
     box-sizing: border-box;
-    color: #333;
+
 }
+
 body {
     background-color: #dedede;
     font-family: Calibri;
 }
 
-.full-screen-div
-{
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    vertical-align: middle;
+.modal-message-drop{
 
-    background-color: aliceblue;
-}
-
-.modal-wrapper
-{
-    display: inline-block;
-
-}
-
-.modal-message-drop
-{
     position: absolute;
 
     width: 800px;
     margin-top: 80px;
 
-    padding-top: 90px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 90px;
+    padding: 90px 70px;
 
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -50,10 +28,11 @@ body {
     -webkit-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
     -moz-box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
     box-shadow: 13px 17px 73px -29px rgba(0,0,0,0.75);
+
+    color: #333;
 }
 
-.modal-img
-{
+.modal-image {
     width: 100px;
     height: 100px;
 
@@ -68,22 +47,20 @@ body {
     border: 2px solid #dedede;
 
     background-color: white;
-    background-image: url("letter.png");
+    background-image: url("images/letter.png");
     background-position: center;
     background-repeat: no-repeat;
 
 }
 
-.modal-header
-{
+.modal-header {
     text-align: center;
     font-size: 30px;
     margin-bottom: 30px;
 }
 
 /***************INPUTS AND TEXTAREAS********************************************/
-.modal-input, .modal-textarea
-{
+.modal-input, .modal-textarea {
     padding: 18px;
 
     border: 1px solid #dedede;
@@ -96,33 +73,29 @@ body {
     margin-bottom: 30px;
 }
 
-.modal-input:focus, .modal-textarea:focus
-{
-    border-color: rgb(252,77,94);
+.modal-input:focus, .modal-textarea:focus {
+    border-color: #fc4d5e;
 }
 
-.modal-input::placeholder, .modal-textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #555555;
-    opacity: 1; /* Firefox */
-}
+/*.modal-input::placeholder, .modal-textarea::placeholder { !* Chrome, Firefox, Opera, Safari 10.1+ *!*/
+    /*color: #555555;*/
+    /*opacity: 1; !* Firefox *!*/
+/*}*/
 
-.modal-input:-ms-input-placeholder, .modal-textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #555555;
-}
+/*.modal-input:-ms-input-placeholder, .modal-textarea:-ms-input-placeholder { !* Internet Explorer 10-11 *!*/
+    /*color: #555555;*/
+/*}*/
 
-.modal-input::-ms-input-placeholder, .modal-textarea::-ms-input-placeholder { /* Microsoft Edge */
-    color: #555555;
-}
+/*.modal-input::-ms-input-placeholder, .modal-textarea::-ms-input-placeholder { !* Microsoft Edge *!*/
+    /*color: #555555;*/
+/*}*/
 /***************INPUTS *********************************************************/
-.modal-input
-{
+.modal-input {
     padding: 0px 20px;
-    vertical-align: center;
-
+    vertical-align: middle;
 }
 
-.modal-input-name, .modal-input-mail
-{
+.modal-input-name, .modal-input-mail {
     width: calc(50% - 12px);
     height: 60px;
     font-size: 20px;
@@ -134,21 +107,18 @@ body {
 }
 
 /************TEXTAREA ************************************************************/
-.modal-textarea
-{
+.modal-textarea {
     width: 100%;
     height: 200px;
     font-size: 16px;
 }
 
-.modal-submit
-{
+.modal-submit {
     text-align: right;
 }
 
-.modal-submit-button
-{
-    background-color: rgb(252,77,94);
+.modal-submit-button {
+    background-color: #fc4d5e;;
     color: white;
     cursor: pointer;
 
@@ -160,7 +130,6 @@ body {
 
 .modal-submit-button:focus,
 .modal-submit-button:active,
-.modal-submit-button:hover
-{
+.modal-submit-button:hover{
     background-color: #333333;
 }
